@@ -1,0 +1,25 @@
+# Secrets locaux
+.env
+.env.*
+!.env.example
+.aws/
+.azure/
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.auto.tfvars.json
+
+# Fichiers générés
+.venv/
+.vagrant/
+.terraform/
+node_modules/
+__pycache__/
+*.log
+desktop.ini
+.DS_Store
